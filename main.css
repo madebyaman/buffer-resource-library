@@ -16,10 +16,6 @@
   Typography
 */
 
-h2 {
-  font-size: 24px;
-}
-
 .featured h2 {
   font-size: 30px;
 }
@@ -50,6 +46,19 @@ footer h3 {
   .d-flex.featured {
     flex-direction: column;
   }
+}
+
+/*
+  Individual Card It
+*/
+
+.card-body h2 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.card-body .btn {
+  font-size: 15px;
 }
 
 /*
@@ -113,6 +122,10 @@ footer h3 {
 /*
   Footer Section
 */
+
+footer.container {
+  margin-top: 8rem;
+}
 
 footer li a {
   color: var(--blue);
